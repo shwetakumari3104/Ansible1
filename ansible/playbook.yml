@@ -4,12 +4,12 @@
   tasks:
     - name: copy
       copy:
-        src: "/var/snap/jenkins/5022/Ansible1/workspace/target/Ansible1.war"
+        src: "/var/snap/jenkins/5022/workspace/Ansible1/target/Ansible1.war"
         dest: "/opt/tomcat/webapps/Ansible1.war"
     - name: Restart
       shell: |
-        /opt/tomcat/bin/sh shutdown.sh
-        /opt/tomcat/bin/sh startup.sh
+        /opt/tomcat/bin/shutdown.sh
+        /opt/tomcat/bin/startup.sh
       
      
   
