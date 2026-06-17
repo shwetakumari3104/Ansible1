@@ -9,7 +9,7 @@ stage('Checkout')
 {
 steps
 {
-'git branch:'master', url:"https://www.github.com/shwetakumari3104/Ansible1.git";
+git branch:'master', url:"https://www.github.com/shwetakumari3104/Ansible1.git";
 }}
 stage('Build')
 {
