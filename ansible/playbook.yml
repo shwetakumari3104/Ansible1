@@ -4,7 +4,7 @@
   tasks:
     - name: copy
       copy:
-        src: "var/snap/jenkins/5015/Ansible1/target/Ansible1.war"
+        src: "/var/snap/jenkins/5015/Ansible1/target/Ansible1.war"
         dest: "/opt/tomcat/webapps/Ansible1.war"
     - name: Restart
       shell: |
